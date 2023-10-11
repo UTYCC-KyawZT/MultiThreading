@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "singlethread": "bun ./singlethread/.",
-    "multithread": "bun ./multithread/."
+    "singlethread": "node ./singlethread/.",
+    "multithread": "node ./multithread/."
   },
   "keywords": [],
   "author": "",
