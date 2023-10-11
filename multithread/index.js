@@ -4,7 +4,7 @@ const doFib = async (iterations) => {
   return new Promise((resolve, reject) => {
     const start = Date.now();
     // ---- Start worker
-    const worker = new Worker("./fib.js", {
+    const worker = new Worker("./multithread/fib.js", {
       workerData: {
         iterations,
       },
